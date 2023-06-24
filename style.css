@@ -94,6 +94,12 @@ p {
     top: 105%;
 }
 
+.advice-button:hover {
+    box-shadow: 0 0 20px 0 var(--color-neon-green);
+
+    cursor: pointer;
+}
+
 
 
 
