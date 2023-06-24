@@ -27,10 +27,49 @@ body {
 
 .advice-card {
     background-color: var(--color-dark-grayish-blue);
+
+    border-radius: 15px;
+
     width: 540px;
+    min-height: 332px;
 
     font-family: 'Manrope', sans-serif;
     font-size: 28px;
+
+    display: grid;
+    place-items: center;
+    
+}
+
+.advice-card-content {
+    position: relative;
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+    
+
+    gap: 1em;
+
+    
+    padding: 0 1.5em;
+
+    padding-bottom: .5em;
+
+}
+
+h1 {
+    font-size: .5em;
+
+    text-transform: uppercase;
+    letter-spacing: .25em;
+
+    color: var(--color-neon-green);
+}
+
+p {
+    color: var(--color-light-cyan);
 }
 
 .divider-mobile {
@@ -41,27 +80,23 @@ body {
     background-image: url(images/icon-dice.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 2em;
+
+    background-color: var(--color-neon-green);
+
+
+
     width: 64px;
     height: 64px;
     border-radius: 50%;
     border: none;
-}
 
-
-
-
-
-
-
-
-.guide{
-    width: 540px;
-    height: 332px;
     position: absolute;
-    border: 2px solid;
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 105%;
 }
+
+
+
+
+
+
+
