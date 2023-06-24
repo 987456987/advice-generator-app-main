@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Primary Colors */
+    --color-light-cyan: hsl(193, 38%, 86%);
+    --color-neon-green: hsl(150, 100%, 66%);
+  
+    /* Neutral Colors */
+    --color-grayish-blue: hsl(217, 19%, 38%);
+    --color-dark-grayish-blue: hsl(217, 19%, 24%);
+    --color-dark-blue: hsl(218, 23%, 16%);
+  }
+
+body {
+    background-color: var(--color-dark-blue);
+}
+  
+
+.advice-card {
+    font-size: 28px;
+    background-color: var(--color-dark-grayish-blue);
+}
